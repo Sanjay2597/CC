@@ -1,0 +1,963 @@
+
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+
+
+	src:url(../fonts/Dry Brush.ttf);
+	src:url(../fonts/DecoTech.ttf);
+	font-family: Dry Brush;
+	font-family: DecoTech;
+}
+
+
+
+html, body{
+
+	height: 100%;
+}
+
+body{
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	color: #000;
+	font-family: sans-serif;
+	background-color: #fff;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+
+	margin-top: 0;
+}
+
+/* Home Page */
+
+nav{
+
+	
+	width:100%;
+	height: 170px;
+	background-color: #000;
+	line-height: 110px;
+	z-index: 99;
+}
+
+.pic{
+
+	margin-left:15px; 
+}
+
+nav div{
+
+	float: right;
+	margin-right: 30px;
+
+}
+
+.nav a{
+
+	padding: 50px;
+	color: #fff;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: DecoTech;
+	font-size: 300%
+}
+
+
+.navitems{
+
+	margin-top: 5%;
+	border-radius: 20%;
+	height:130;
+	width: 65vh;
+	transition: 0.5s all;
+
+}
+.navitems:hover{
+
+	background-color: #fff5;
+	padding: 20px;
+	text-decoration: underline;
+}
+
+
+
+
+/* Breadcrumb */
+ul.breadcrumb {
+  
+  list-style: none;
+  margin-top: -30px;
+  margin-left: 50px;
+  font-family: Times New Roman;
+  font-size: 130%;
+  color: #fff;
+}
+
+
+ul.breadcrumb li {
+  display: inline;
+  
+  
+}
+
+
+ul.breadcrumb li+li:before {
+  padding: 2px;
+  color: #fff;
+  content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 120%;
+  font-family: Times New Roman;
+}
+
+
+ul.breadcrumb li a:hover {
+  color: #fff6;
+  text-decoration: underline;
+}
+
+/* Deviders/Sections*/
+.sect{
+
+
+	height: 100%;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+
+}
+
+.subsect{
+
+	height: 25%;
+	background-size: contain;
+	background-position: center;
+	background-color:#000;
+	background-repeat: no-repeat; 
+	text-align: center;
+
+}
+/* Page Header Logos */
+
+.one{
+
+
+	background-image: url("../img/Logo2.png");
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+
+.two{
+
+	background-image: url("../img/Builds Logo.png");
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 80%;
+}
+
+.three{
+
+
+	background-image: url("../img/About Logo.png");
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+
+	
+}
+.four{
+
+
+	background-image: url("../img/News Logo.png");
+	background-size:50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+
+	
+}
+.five{
+
+	background-image: url("../img/Contact Logo.png");
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.six{
+
+	background-image: url("../img/Omega Logo.png");
+	background-size: 45%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.seven{
+
+	background-image: url("../img/Reign Logo.png");
+	background-size: 45%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+
+.eight{
+
+	background-image: url("../img/Wraith Logo.png");
+	background-size: 45%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+/* Pictures*/
+.secttwo{
+
+	background-image: url("../img/a1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	height: 100%;
+	width:100%;
+}
+
+
+.sectthree{
+
+	background-image: url("../img/a2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	height: 100%;
+	width:100%;
+}
+
+.sectfour{
+
+	background-image: url("../img/a3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	height: 100%;
+	width:100%;
+}
+
+.sectfive{
+
+	background-image: url("../img/a4.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	height: 100%;
+	width:100%;
+}
+
+.sectsix{
+
+	background-image: url("../img/a5.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	height: 100%;
+	width:100%;
+}
+
+.welcome{
+
+	text-align: center;
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 450%
+	
+}
+.buildshome{
+
+	text-align: center;
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 1000%
+}
+
+
+
+.intro{
+
+	font-family: DecoTech;
+	color: white;
+	font-size: 300%;
+	text-align: center;
+}
+
+div .intro{
+
+	padding: 50px;
+}
+
+
+.buildimg{
+
+	margin-top: 5%;
+	border-radius: 20%;
+	height:130;
+	width: 65vh;
+	transition: 0.5s all;
+
+}
+.buildimg:hover{
+
+	background-color: #fff5;
+	padding: 10px;
+}
+
+.buildimgtag{
+
+	display: inline-block;
+	text-align: center;
+	font-size: 500%;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	padding: 80px;
+	color: #fff;
+	font-family: DecoTech;
+}
+
+.contacthome{
+
+	text-align: center;
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 1000%
+}
+
+.contacthometag{
+
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 300%
+}
+
+.contactimg{
+
+	margin-top: -5px;
+	border-radius: 20%;
+	height:100;
+	width: 50vh;
+	transition: 0.5s all;
+
+}
+.contactimg:hover{
+
+	background-color: #fff5;
+	padding: 20px;
+}
+
+footer{
+
+	text-align: center;
+	background-color: #000;
+	padding-bottom: 50px;
+}
+
+.footertag{
+
+	text-align: center;
+	display: inline-block;
+	font-size: 150%;
+	font-family: Times New Roman;
+	color: white;
+	padding: 60px;
+}
+
+.footertag2{
+
+	text-align: center;
+	display: inline-block;
+	font-size: 100%;
+	font-family: Times New Roman;
+	color: white;
+}
+
+/* Builds */
+.buildpagetag{
+
+	text-align: center;
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 900%
+}
+
+
+/* Omega on Builds Page*/
+
+.buildshomeomega{
+
+	height: 350px;
+	width: 75vh;
+	margin-top: 10px;
+	transition: 0.5s all;
+	border-radius: 20%;
+}
+
+.buildshomeomega:hover{
+
+	background-color: #fff5;
+	padding: 10px;
+	
+}
+
+.buildshomeomegadescription{
+
+	text-align: center;
+	display: inline-block;
+	font-size: 300%;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+	font-family: DecoTech;
+	color: #fff;
+
+}
+
+/* Reign on Builds Page*/
+
+.buildshomereign{
+
+	height: 350px;
+	width: 75vh;
+	margin-top: 10px;
+	transition: 0.5s all;
+	border-radius: 20%;
+}
+
+.buildshomereign:hover{
+
+	background-color: #fff5;
+	padding: 10px;
+	
+}
+
+.buildshomereigndescription{
+
+	text-align: center;
+	display: inline-block;
+	font-size: 300%;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+	font-family: DecoTech;
+	color: #fff;
+
+}
+
+/* Wraith on Builds Page*/
+
+.buildshomewraith{
+
+	height: 350px;
+	width: 75vh;
+	margin-top: 10px;
+	transition: 0.5s all;
+	border-radius: 20%;
+}
+
+.buildshomewraith:hover{
+
+	background-color: #fff5;
+	padding: 10px;
+	
+}
+
+.buildshomewraithdescription{
+
+	text-align: center;
+	display: inline-block;
+	font-size: 300%;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+	font-family: DecoTech;
+	color: #fff;
+
+}
+
+/*The Omega Official*/
+
+.omegapagetag{
+
+	text-align: center;
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 900%
+}
+
+.omegapictures{
+
+	
+	border-radius: 20%;
+	height:120;
+	width: 60vh;
+	transition: 0.5s all;
+
+}
+.omegapictures:hover{
+
+	background-color: #fff5;
+	padding: 10px;
+}
+
+.omegapicturesclick{
+
+	text-align: center;
+	display: inline-block;
+	font-size: 400%;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 200px;
+	font-family: DecoTech;
+	color: #fff;
+}
+
+.omegaspecs{
+
+	font-family: Times New Roman;
+	color: #fff;
+	font-size: 70%;
+	text-align: left;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.backtobuilds{
+
+	text-align: right;
+	text-decoration: none;
+	padding: 50px;
+	color: #fff;
+	font-family: DecoTech;
+
+
+}
+
+
+
+.backtobuilds{
+
+	
+	transition: 0.5s all;
+
+}
+.backtobuilds:hover{
+
+	background-color: transparent;
+	text-decoration: underline;
+	text-align: right;
+}
+
+/*The Reign Official*/
+
+.reignpagetag{
+
+	text-align: center;
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 900%
+}
+
+
+
+.reignpictures{
+
+	
+	border-radius: 20%;
+	height:120;
+	width: 60vh;
+	transition: 0.5s all;
+
+}
+.reignpictures:hover{
+
+	background-color: #fff5;
+	padding: 10px;
+}
+
+.reignpicturesclick{
+
+	text-align: center;
+	display: inline-block;
+	font-size: 400%;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 200px;
+	font-family: DecoTech;
+	color: #fff;
+}
+
+.reignspecs{
+
+	font-family: Times New Roman;
+	color: #fff;
+	font-size: 70%;
+	text-align: left;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.backtobuilds{
+
+	text-align: right;
+	text-decoration: none;
+	padding: 50px;
+	color: #fff;
+	font-family: DecoTech;
+	transition: 0.5s all;
+
+}
+
+
+.backtobuilds:hover{
+
+	background-color: transparent;
+	text-decoration: underline;
+	text-align: right;
+}
+
+.backtobuildscontainer{
+
+	margin-right: 100px;
+}
+
+/*The Wraith Official*/
+
+.wraithpagetag{
+
+	text-align: center;
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 900%
+}
+
+.wraithpictures{
+
+	
+	border-radius: 20%;
+	height:120;
+	width: 60vh;
+	transition: 0.5s all;
+
+}
+.wraithpictures:hover{
+
+	background-color: #fff5;
+	padding: 10px;
+}
+
+.wraithpicturesclick{
+
+	text-align: center;
+	display: inline-block;
+	font-size: 400%;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 200px;
+	font-family: DecoTech;
+	color: #fff;
+}
+
+.wraithspecs{
+
+	font-family: Times New Roman;
+	color: #fff;
+	font-size: 70%;
+	text-align: left;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.backtobuilds{
+
+	text-align: right;
+	text-decoration: none;
+	padding: 50px;
+	color: #fff;
+	font-family: DecoTech;
+	transition: 0.5s all;
+
+}
+
+
+.backtobuilds:hover{
+
+	background-color: transparent;
+	text-decoration: underline;
+	text-align: right;
+}
+
+.backtobuildscontainer{
+
+	margin-right: 100px;
+}
+
+/*About Official*/
+
+.aboutpagetag{
+
+	text-align: center;
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 900%
+}
+
+
+
+.about{
+
+	text-align: center;
+	display: inline-block;
+	font-size: 250%;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 50px;
+	font-family: Times New Roman;
+	color: #fff;
+
+}
+
+/*News Official*/
+
+
+.newsbuildimg{
+
+	margin-top: 5%;
+	border-radius: 20%;
+	height:130;
+	width: 65vh;
+	transition: 0.5s all;
+
+}
+
+
+.newspagetag{
+
+	text-align: center;
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 900%
+
+
+}
+
+.newsbuildimg:hover{
+
+	background-color: #fff5;
+	padding: 10px;
+}
+
+.newsbuildimgtag{
+
+	display: inline-block;
+	text-align: center;
+	font-size: 500%;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	padding: 80px;
+	color: #fff;
+	font-family: DecoTech;
+}
+
+.newslatesthardware{
+
+	text-align: center;
+	font-size: 120%;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: Times New Roman;
+	color: #fff;
+	font-size: 250%;
+	padding-top: 50px;
+}
+
+.readmorelatesthardware{
+
+	display: inline-block;
+	font-size: 200%;
+	font-family: DecoTech;
+	color: white;
+}
+
+.newslatestsoftware{
+
+	text-align: center;
+	font-size: 120%;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: Times New Roman;
+	color: #fff;
+	font-size: 250%;
+	padding-top: 50px;
+}
+
+.readmorelatestsoftware{
+
+	display: inline-block;
+	font-size: 200%;
+	font-family: DecoTech;
+	color: white;
+}
+
+
+/*Contact Official*/
+
+
+.contactpagetag{
+
+	text-align: center;
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 1000%
+}
+
+.formintro{
+
+	padding-top: 50px;
+	font-size: 300%;
+	font-family: DecoTech;
+	color: white;
+}
+
+form{
+
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+
+.form-control{
+
+	width: 600px;
+	background:transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+	text-align: center;
+
+}
+
+input{
+
+	height: 45px;
+
+}
+
+form .submit{
+
+	background: #fff6;
+	border-color: transparent;
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 250%;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 40%;
+
+}
+form .submit: hover{
+
+	background-color: #fff6;
+	cursor: pointer;
+}
+
+.contactemailtagcontainer{
+
+		padding-top: 50px;	
+}
+
+.contactemailtag{
+
+	color: #fff;
+	font-family: DecoTech;
+	font-size: 300%;
+	
+}
+
+.contactemailimg{
+
+	margin-top: -5px;
+	border-radius: 20%;
+	height:100;
+	width: 50vh;
+	transition: 0.5s all;
+}
+
+.contactemailimg:hover{
+
+	background-color: #fff5;
+	padding: 20px;
+}
+
+.email{
+
+	font-family: Times New Roman;
+	font-size: 200%;
+	color: #fff;
+}
+
+.termsofusetag{
+
+	color: #fff;
+	font-size: 550%;
+	font-family: DecoTech;
+	padding-top: 30px;
+
+}
+.termsofuseclause{
+
+	text-align: left;
+	display: inline-block;
+	font-size: 150%;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	font-family: Times New Roman;
+	color: #fff;
+}
